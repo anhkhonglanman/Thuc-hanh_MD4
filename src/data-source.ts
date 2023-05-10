@@ -8,7 +8,7 @@ export const AppDataSource = new DataSource({
     port: 3306,
     username: "root",
     password: "123456",
-    database: "typeorm",
+    database: "car",
     synchronize: true,
     entities: ["dist/src/entity/*.js"]
 })
